@@ -1,23 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Título que diga "Mi trabajo de sueños". -->
-        <title>Mi trabajo de sueños</title>
-        <link rel="stylesheet" href="./styles.css" />
-    </head>
-    <body>
-        <header>
-        </header>
-        <main>
-            <!-- ● Un párrafo que describa brevemente el trabajo de tus sueños. -->
-            <!-- ● Una lista de al menos tres razones por las que te gustaría tener ese trabajo (puedes utilizar etiquetas ul y li). -->
-            <!-- ● Usa la etiqueta div para agrupar diferentes secciones. -->
-            <!-- ● Usa la etiqueta span para resaltar algún texto en tu página. -->
-            <!-- ● Una tabla que muestre los pasos o requisitos para obtener ese trabajo. -->
+
+<head>
+    <!-- Título que diga "Mi trabajo de sueños". -->
+    <title>Mi trabajo de sueños | Reto 2: Crear Página WEB básico Utilizando HTML y CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#descripcion-trabajo-suenos">Descripción del trabajo de mis sueños</a></li>
+                <li><a href="#razones-querer-trabajo">Razones por las cuales quiero el trabajo</a></li>
+                <li><a href="#requisitos-conseguir-trabajo">Requisitos para conseguir el trabajo</a></li>
+                <li><a href="#empresas-objetivo">Empresas objetivo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Mi trabajo de sueños</h1>
+        <section id="descripcion-trabajo-suenos">
             <!-- ● Usa la etiqueta img para incluir al menos una imagen relacionada con ese trabajo. -->
-        </main>
-        <footer>
-            <!-- ● Sección de copyright y derechos reservados -->
-        </footer>
-    </body>
+            <img src="./assets/image.png" alt="Un equipo de QA Engineers" />
+            <!-- ● Un párrafo que describa brevemente el trabajo de tus sueños. -->
+            <!-- ● Usa la etiqueta span para resaltar algún texto en tu página. -->
+            <p>Un lugar ideal donde pueda poner en práctica mis habilidades como <strong>Fullstack Developer & QA
+                    Engineer</strong> para contribuir al desarrollo de sistemas de apoyo para el proceso de procuración
+                e impartición de justicia como <strong>AROS</strong>, una plataforma integral orientada a modernizar el
+                proceso mediante la interconexión y automatización de procesos. Busco formar parte de una organización
+                comprometida con la <strong>innovación tecnológica</strong>, guiada por sólidos principios éticos y
+                sociales, y <span>conformada por personas colaborativas, comprometidas y con un genuino espíritu de
+                    servicio hacia la ciudadanía.</span>
+            </p>
+
+        </section>
+        <section id="razones-querer-trabajo">
+            <h2>Razones por las que me gustaría tener este trabajo</h2>
+            <!-- ● Una lista de al menos tres razones por las que te gustaría tener ese trabajo (puedes utilizar etiquetas ul y li). -->
+            <ul>
+                <li>Los objetivos y principios están alineados con los míos.</li>
+                <li>El área ofrece desarrollo profesional y colaboración en proyectos innovadores.</li>
+                <li>Relación con personas de diversas culturas y puntos de vista enriquecedores.</li>
+            </ul>
+        </section>
+        <!-- ● Una tabla que muestre los pasos o requisitos para obtener ese trabajo. -->
+        <section id="requisitos-conseguir-trabajo">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Responsabilidades Principales</th>
+                        <th>Requisitos Técnicos <strong>(Obligatorios)</strong></th>
+                        <th>Deseables <strong>(Nice to have)</strong></th>
+                        <th>Habilidades blandas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 1ra fila -->
+                    <tr>
+                        <td>Crear y mantener documentación de pruebas y reportes de ejecución.</td>
+                        <td>2+ años de experiencia comprobable en QA Automation.</td>
+                        <td>Experiencia con Cypress, TestCafe o Selenium.</td>
+                        <td>Atención al detalle y pensamiento analítico.</td>
+                    </tr>
+                    <!-- 2da fila -->
+                    <tr>
+                        <td>Diseñar, desarrollar y mantener pruebas automatizadas de UI y API utilizando Playwright
+                            (TypeScript o JavaScript).</td>
+                        <td>Experiencia sólida con Playwright (JavaScript o TypeScript).</td>
+                        <td>Experiencia en BDD (Cucumber / Gherkin).</td>
+                        <td>Comunicación clara con equipos técnicos y no técnicos.</td>
+                    </tr>
+                    <!-- 3ra fila -->
+                    <tr>
+                        <td>Implementar y ejecutar pipelines de automatización en Azure DevOps.</td>
+                        <td>Conocimientos en Azure DevOps Pipelines (configuración, ejecución y monitoreo).</td>
+                        <td>Conocimientos básicos de SQL o bases de datos NoSQL.</td>
+                        <td>Capacidad para trabajar en equipos ágiles (Scrum / Kanban).</td>
+                    </tr>
+                    <!-- 4ta fila -->
+                    <tr>
+                        <td>Mantener la integración continua de pruebas en entornos de desarrollo y staging.</td>
+                        <td>Experiencia con Git y flujos de trabajo GitFlow o similares.</td>
+                        <td>Familiaridad con reportes de pruebas automatizadas (Allure, Playwright Test Reports, etc.).
+                        </td>
+                        <td>Proactividad, autonomía y enfoque en resultados.</td>
+                    </tr>
+                    <!-- 5ta fila -->
+                    <tr>
+                        <td>Colaborar con el equipo de desarrollo para analizar requerimientos y definir criterios de
+                            aceptación de calidad.</td>
+                        <td>Experiencia con pruebas de API (REST) y herramientas como Postman o Swagger.</td>
+                        <td>Experiencia con pruebas de performance o carga.</td>
+                        <td>Compromiso con la mejora continua.</td>
+                    </tr>
+                    <!-- 6ta fila -->
+                    <tr>
+                        <td>Reportar defectos, dar seguimiento y validar correcciones.</td>
+                        <td>Conocimientos de CI/CD, Docker y manejo básico de entornos virtualizados.</td>
+                        <td>SIN CONTENIDO...</td>
+                        <td>SIN CONTENIDO...</td>
+                    </tr>
+                    <!-- 7ma fila -->
+                    <tr>
+                        <td>Asegurar la trazabilidad entre requerimientos, casos de prueba y resultados.</td>
+                        <td>Familiaridad con conceptos de testing: smoke, regresión, integración, end-to-end.</td>
+                        <td>SIN CONTENIDO...</td>
+                        <td>SIN CONTENIDO...</td>
+                    </tr>
+                    <!-- 8va fila -->
+                    <tr>
+                        <td>SIN CONTENIDO...</td>
+                        <td>Nivel de inglés técnico intermedio.</td>
+                        <td>SIN CONTENIDO...</td>
+                        <td>SIN CONTENIDO...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <!-- ● Usa la etiqueta div para agrupar diferentes secciones. -->
+        <section id="empresas-objetivo">
+            <article>
+                <img src="" alt="" />
+                <div>
+                    <h3>Forte Innovation</h3>
+                    <p>descripción de forte</p>
+                </div>
+            </article>
+            <article>
+                <img src="" alt="" />
+                <div>
+                    <h3>Unosquare</h3>
+                    <p>descripción de unosquare</p>
+                </div>
+            </article>
+            <article>
+                <img src="" alt="" />
+                <div>
+                    <h3>Baires Dev</h3>
+                    <p>descripción de Baires Dev</p>
+                </div>
+            </article>
+        </section>
+        <!-- ● Sección de copyright y derechos reservados -->
+        <small>&copy; 2025 Helios Barrea Hernández. Todos los derechos reservados.</small>
+    </footer>
+</body>
+
 </html>
