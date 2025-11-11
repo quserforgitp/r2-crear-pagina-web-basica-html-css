@@ -253,7 +253,7 @@
   }
 
   /* === COPYRIGHT === */
-  .footer__copyright {
+   #footer-copyright {
     font-size: 0.85rem;
     color: var(--text-muted);
     display: block;
